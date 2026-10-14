@@ -27,14 +27,17 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(color: Colors.white, fontSize: 36),
                 ),
               ),
-              SizedBox(height: 6,),
+              SizedBox(height: 6),
               ElevatedButton(
                 onPressed: () {
                   debugPrint('Button pressed');
                 },
                 child: Text(
                   'Click me',
-                  style: TextStyle(color: Color.fromRGBO(104, 105, 11, 1), fontSize: 10),
+                  style: TextStyle(
+                    color: Color.fromRGBO(104, 105, 11, 1),
+                    fontSize: 10,
+                  ),
                 ),
               ),
             ],
