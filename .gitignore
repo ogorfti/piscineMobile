@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# IDE files
+.idea/
+*.iml
+
+# Flutter generated files
+.dart_tool/
+build/
+coverage/
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+local.properties
+key.properties
+*.jks
+*.keystore
+hello_buddy
